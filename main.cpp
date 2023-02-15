@@ -1,6 +1,9 @@
-#include <iostream>
+#include "src/game.h"
+#include "src/wordList.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    loadWords();
+    run();
+
     return 0;
 }
